@@ -8,7 +8,7 @@ type ProjectItemProps = {
 
 const ProjectItem: React.FC<ProjectItemProps> = ({project}) => {
     return (
-        <Card className="w-1/4 flex flex-col justify-between items-start gap-3 p-4 hover:scale-105">
+        <Card className="w-full md:w-1/4 flex flex-col justify-between items-start gap-3 p-4 hover:scale-105">
             <div>
                 <CardTitle>{project.title}</CardTitle>
                 <CardDescription>
